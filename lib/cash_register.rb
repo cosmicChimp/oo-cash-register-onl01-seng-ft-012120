@@ -22,7 +22,6 @@ class CashRegister
     else
       @items << title
     end
-    @total
   end
   
   def apply_discount()
