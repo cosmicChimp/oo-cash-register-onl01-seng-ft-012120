@@ -1,3 +1,4 @@
+
 class CashRegister
   
   attr_accessor :total, :discount, :last_trans, :items
@@ -8,6 +9,7 @@ class CashRegister
     @items = []
   end
   
+ 
   def add_item(title, price, quantity = 1)
     if quantity > 1 
       i = 0 
